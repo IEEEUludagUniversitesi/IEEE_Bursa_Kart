@@ -1,60 +1,226 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IEEE Bursa Uludağ İndirimler</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body { background: #f8f9fa; }
-    .card { margin-bottom: 15px; }
-    .discount { font-size: 1.2rem; font-weight: bold; color: rgb(255, 0, 191); }
-    footer { margin-top: 30px; font-size: 0.9rem; color: #666; text-align: center; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IEEE Bursa – Üye İndirimleri</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f2d4a;
+        color: white;
+        text-align: center;
+    }
+
+    h1 {
+        padding: 20px 10px;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(6px);
+    }
+
+    .logo {
+        width: 160px;
+        height: 160px;
+        object-fit: contain;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .discount {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+</style>
 </head>
+
 <body>
-  <div class="container mt-4">
-    <h1 class="text-center text-primary mb-4">IEEE Bursa Uludağ Anlaşmalı Restoranlar</h1>
-    <p class="text-center">Bu kartı göstererek aşağıdaki işletmelerden indirim alabilirsiniz:</p>
 
-    <!-- Restoran 1 -->
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Bursa Kebap Evi</h5>
-        <p class="discount">%15 indirim</p>
-      </div>
+<h1>IEEE Bursa – Üye İndirimleri</h1>
+
+<div class="container">
+
+    <!-- WCYS -->
+    <div class="card">
+        <img class="logo" src="wcys.png" alt="WCYS">
+        <div class="brand-name">WCYS</div>
+        <div class="discount">Üyelerimize özel %15 indirim</div>
     </div>
 
-    <!-- Restoran 2 -->
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Çinar Pastanesi</h5>
-        <p class="discount">%10 indirim</p>
-      </div>
+    <!-- Öncü -->
+    <div class="card">
+        <img class="logo" src="oncu.png" alt="Öncü">
+        <div class="brand-name">Öncü Soslu Tavuk Dürüm</div>
+        <div class="discount">Üyelerimize özel %16 indirim</div>
     </div>
 
-    <!-- Restoran 3 -->
-    <div class="card shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Local Coffee</h5>
-        <p class="discount">%12 indirim</p>
-      </div>
+    <!-- Katık Döner -->
+    <div class="card">
+        <img class="logo" src="katik.png" alt="Katık Döner">
+        <div class="brand-name">Katık Döner</div>
+        <div class="discount">Üyelerimize özel %15 indirim</div>
     </div>
 
-   <div class="card shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Big Ye</h5>
-        <p class="discount">%20 indirim</p>
-      </div>
+    <!-- Dürümgah -->
+    <div class="card">
+        <img class="logo" src="durumgah.png" alt="Dürümgah">
+        <div class="brand-name">Dürümgah Hatay Soslu</div>
+        <div class="discount">Üyelerimize özel %20 indirim</div>
     </div>
-    
-    <footer>
-      *İndirimler sadece IEEE Bursa Uludağ University öğrenci kartı ile geçerlidir.
-    </footer>
-  </div>
 
-  <!-- Bootstrap JS (opsiyonel, bazı efektler için) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Müptela -->
+    <div class="card">
+        <img class="logo" src="muptela.png" alt="Müptela">
+        <div class="brand-name">Müptela</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Teknomob -->
+    <div class="card">
+        <img class="logo" src="teknomob.png" alt="Teknomob">
+        <div class="brand-name">Teknomob Teknik Servis</div>
+        <div class="discount">Üyelerimize özel %15 indirim</div>
+    </div>
+
+    <!-- Karadeniz Kalender -->
+    <div class="card">
+        <img class="logo" src="kalender.png" alt="Karadeniz Kalender">
+        <div class="brand-name">Karadeniz Kalender</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Lorien Garden -->
+    <div class="card">
+        <img class="logo" src="lorien.png" alt="Lorien Garden">
+        <div class="brand-name">Lorien Garden</div>
+        <div class="discount">Üyelerimize özel %15 indirim</div>
+    </div>
+
+    <!-- Beysos Döner -->
+    <div class="card">
+        <img class="logo" src="beysos.png" alt="Beysos Döner">
+        <div class="brand-name">Beysos Döner</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Cızzgara -->
+    <div class="card">
+        <img class="logo" src="cizzgara.png" alt="Cızzgara">
+        <div class="brand-name">Cızzgara Mangal</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Coffy -->
+    <div class="card">
+        <img class="logo" src="coffy.png" alt="Coffy">
+        <div class="brand-name">Coffy</div>
+        <div class="discount">Üyelerimize özel %15 indirim</div>
+    </div>
+
+    <!-- Çınar Pastanesi -->
+    <div class="card">
+        <img class="logo" src="cinar.png" alt="Çınar">
+        <div class="brand-name">Çınar Pastanesi</div>
+        <div class="discount">Üyelerimize özel %20 indirim</div>
+    </div>
+
+    <!-- Helvacı Ali -->
+    <div class="card">
+        <img class="logo" src="helvaci.png" alt="Helvacı Ali">
+        <div class="brand-name">Helvacı Ali</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Közbaşı Kebap -->
+    <div class="card">
+        <img class="logo" src="kozbası.png" alt="Közbaşı Kebap">
+        <div class="brand-name">Közbaşı Kebap Pide</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- 20 Kahve -->
+    <div class="card">
+        <img class="logo" src="20kahve.png" alt="20 Kahve">
+        <div class="brand-name">20 Kahve</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Anatomy Athletics -->
+    <div class="card">
+        <img class="logo" src="anatomy.png" alt="Anatomy Athletics">
+        <div class="brand-name">Anatomy Athletics</div>
+        <div class="discount">Üyelerimize özel %20 indirim</div>
+    </div>
+
+    <!-- Sürmene Pilavcısı -->
+    <div class="card">
+        <img class="logo" src="surmene.png" alt="Sürmene Pilavcısı">
+        <div class="brand-name">Tarihi Sürmene Pilavcısı</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- The Cups -->
+    <div class="card">
+        <img class="logo" src="cups.png" alt="The Cups">
+        <div class="brand-name">The Cups Coffee & More</div>
+        <div class="discount">Üyelerimize özel %15 indirim</div>
+    </div>
+
+    <!-- Acıkınca İlk Durak -->
+    <div class="card">
+        <img class="logo" src="ilkdurak.png" alt="Acıkınca İlk Durak">
+        <div class="brand-name">Acıkınca İlk Durak</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Bigye -->
+    <div class="card">
+        <img class="logo" src="bigye.png" alt="Bigye">
+        <div class="brand-name">Bigye Burger</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+    <!-- Prusa Pide -->
+    <div class="card">
+        <img class="logo" src="prusa.png" alt="Prusa Pide">
+        <div class="brand-name">Prusa Pide</div>
+        <div class="discount">Üyelerimize özel %10 indirim</div>
+    </div>
+
+</div>
+
+<footer>
+    Bursa Uludağ University IEEE Student Branch
+</footer>
+
 </body>
 </html>
